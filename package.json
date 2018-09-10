@@ -1,6 +1,6 @@
 {
   "name": "clap-once",
-  "version": "1.0.0",
+  "version": "8.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/rosenshine/clap-once/issues"
   },
-  "homepage": "https://github.com/rosenshine/clap-once#readme"
+  "homepage": "https://github.com/rosenshine/clap-once#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.88.0"
+  }
 }
